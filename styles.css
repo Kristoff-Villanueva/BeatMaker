@@ -20,7 +20,7 @@ body {
 }
 
 .keys {
-	border: 1px solid lightslategrey;
+	border: 1px solid whitesmoke;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -31,6 +31,7 @@ body {
 	padding: 15px;
 	border-radius: 5px;
 	text-align: center;
+	box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 .keys > h2,
 .keys > p {
@@ -42,8 +43,4 @@ body {
 	font-size: 13px;
 	padding-top: 5px;
 	width: 100vmax;
-}
-
-.keys:active {
-	background-color: red;
 }
