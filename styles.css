@@ -1,0 +1,49 @@
+/* * {
+	border: 1px solid red;
+} */
+
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-image: url("./images/drumset.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: whitesmoke;
+	text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-wrap: wrap;
+}
+
+.keys {
+	border: 1px solid lightslategrey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 25px;
+	height: 30px;
+	margin: 10px;
+	padding: 15px;
+	border-radius: 5px;
+	text-align: center;
+}
+.keys > h2,
+.keys > p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.keys > p {
+	font-size: 13px;
+	padding-top: 5px;
+	width: 100vmax;
+}
+
+.keys:active {
+	background-color: red;
+}
